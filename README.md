@@ -1,4 +1,4 @@
-# NAME
+# Grey59Queen
 
 WebService::Pornhub - Perl interface to the Pornhub.com API.
 
