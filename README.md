@@ -138,7 +138,7 @@ There are no parameters for this method.
 
 # LICENSE
 
-Copyright (C) Yusuke Wada.
+Copyright (C) Grey59Queen.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
