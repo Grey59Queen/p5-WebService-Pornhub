@@ -145,4 +145,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Yusuke Wada <yusuke@kamawada.com>
+Grey59Queen <Grey59Queen@outlook.com>
