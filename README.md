@@ -23,7 +23,22 @@ WebService::Pornhub - Perl interface to the Pornhub.com API.
 
 # DESCRIPTION
 
-WebService::Pornhub provides bindings for the Pornhub.com API. This module build with  role [WebService::Client](https://metacpan.org/pod/WebService::Client).
+WebService::Pornhub provides bindings for the Pornhub.com API. This module is built with [WebService::Client](https://metacpan.org/pod/WebService::Client).
+
+# INSTALLATION
+
+Install via CPAN:
+
+    cpanm WebService::Pornhub
+
+Or from GitHub:
+
+    git clone https://github.com/Grey59Queen/p5-WebService-Pornhub.git
+    cd p5-WebService-Pornhub
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
 
 # METHODS
 
@@ -31,11 +46,11 @@ WebService::Pornhub provides bindings for the Pornhub.com API. This module build
 
     my $pornhub = WebService::Pornhub->new(
         timeout => 20, # optional, defaults to 10
-        logger => Log::Fast->new(...), # optinal, defaults to none
-        log_method => 'DEBUG', #  optional, default to 'DEBUG'
+        logger => Log::Fast->new(...), # optional, defaults to none
+        log_method => 'DEBUG', # optional, defaults to 'DEBUG'
     );
 
-Prameters:
+Parameters:
 
 - timeout: (Optional) Integer. Defaults to `10`
 - retries: (Optional) Integer. Defaults to `0`
